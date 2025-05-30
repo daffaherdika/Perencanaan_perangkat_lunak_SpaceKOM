@@ -1,61 +1,54 @@
-# 🏫 SpaceKOM – Web-Based Room Booking System for FILKOM
+# 📘 SpaceKOM – Perancangan Sistem Peminjaman Ruangan FILKOM
 
-SpaceKOM adalah aplikasi berbasis web yang dirancang untuk mengelola peminjaman ruangan secara efisien di Fakultas Ilmu Komputer (FILKOM), Universitas Brawijaya. Aplikasi ini dibangun untuk menggantikan proses manual yang memakan waktu dan rawan kesalahan, dengan sistem digital yang transparan dan real-time.
+**SpaceKOM** adalah proyek perancangan sistem informasi peminjaman ruangan berbasis web yang ditujukan untuk meningkatkan efisiensi dan transparansi dalam pengelolaan fasilitas ruang di Fakultas Ilmu Komputer (FILKOM), Universitas Brawijaya. Proyek ini dibuat dalam rangka memenuhi tugas mata kuliah **Perancangan Perangkat Lunak**.
 
-## 🚀 Tujuan Proyek
+## 🎯 Tujuan Proyek
 
-- Menyediakan sistem peminjaman ruangan yang cepat, transparan, dan efisien.
-- Meminimalisir bentrok jadwal pemakaian ruangan.
-- Memberikan kemudahan akses bagi mahasiswa dan dosen dalam melakukan peminjaman.
-- Menyediakan fitur manajemen ruangan untuk admin fakultas.
+- Mengidentifikasi kebutuhan pengguna (mahasiswa dan admin) terkait peminjaman ruangan.
+- Mendesain sistem informasi berbasis web secara konseptual menggunakan pendekatan berorientasi objek.
+- Menyediakan dokumentasi fungsional dan model sistem yang lengkap untuk pengembangan lebih lanjut.
 
-## 🛠️ Fitur Utama
+## 📋 Ruang Lingkup
 
-### 👨‍🎓 Mahasiswa
-- Melihat ketersediaan ruangan secara real-time.
-- Melakukan peminjaman ruangan dengan mengisi form dan mengunggah dokumen surat peminjaman.
-- Membatalkan peminjaman yang sudah dilakukan.
+- Perancangan fitur untuk mahasiswa: pencarian dan peminjaman ruangan, pembatalan peminjaman.
+- Perancangan fitur admin: verifikasi dokumen, persetujuan/penolakan peminjaman, pembaruan data ruangan.
+- Tidak termasuk tahap implementasi website (pengembangan frontend/backend).
 
-### 🧑‍💼 Admin
+## 🧠 Metodologi
+
+Perancangan sistem dilakukan menggunakan pendekatan **Object-Oriented Analysis and Design (OOAD)**, meliputi:
+
+- **Use Case Modeling**
+- **Use Case Scenario**
+- **Sequence Diagram**
+- **Class Diagram**
+- **Requirement-Class Mapping Table (Class Completeness Test)**
+
+## 📌 Fitur Sistem (yang Dirancang)
+
+### Untuk Mahasiswa
+- Melihat ketersediaan ruangan.
+- Melakukan peminjaman ruangan dengan mengunggah dokumen.
+- Membatalkan peminjaman yang telah dilakukan.
+
+### Untuk Admin
 - Menyetujui atau menolak peminjaman berdasarkan dokumen dan ketersediaan.
-- Mengelola data ruangan (fasilitas, kapasitas, deskripsi).
-- Memperbarui informasi ruangan melalui halaman admin.
+- Memperbarui informasi ruangan seperti fasilitas dan kapasitas.
 
-## 🔍 Fitur Teknis & Dokumentasi
-- Object-Oriented Requirement Modeling:
-  - Use Case Diagram
-  - Sequence Diagram
-  - Class Diagram
-- Validasi peminjaman ruangan, jadwal bentrok, dan format dokumen.
-- Autentikasi dan otorisasi untuk mahasiswa dan admin.
-- Real-time status ketersediaan ruangan.
+## 📄 Dokumentasi Teknis
 
-## 💻 Teknologi yang Digunakan
+Dokumen perancangan mencakup:
 
-- **Frontend:** HTML5, CSS3, JavaScript (Framework opsional: Vue/React)
-- **Backend:** PHP / Node.js / Laravel (disesuaikan dengan implementasi)
-- **Database:** MySQL / PostgreSQL
-- **Tools:** UML Modeling (StarUML / Draw.io)
+- ✅ **Use Case Diagram** – menggambarkan interaksi pengguna dengan sistem.
+- ✅ **Use Case Scenario** – menjelaskan alur lengkap dari masing-masing use case.
+- ✅ **Sequence Diagram** – memodelkan alur pesan antar objek dalam proses sistem.
+- ✅ **Class Diagram** – mendeskripsikan struktur kelas dalam sistem.
+- ✅ **Class Completeness Test** – memetakan kebutuhan sistem ke dalam metode dan atribut kelas.
 
-## 📖 Use Case Contoh
+## 👥 Tim Pengembang
 
-- **Mahasiswa meminjam ruangan:**
-  - Masuk → Pilih ruangan → Masukkan tanggal dan jam → Upload dokumen → Kirim permintaan.
-- **Admin menyetujui peminjaman:**
-  - Masuk → Cek permintaan → Verifikasi dokumen → Setujui atau tolak → Sistem mengirim status.
-
-## 📊 Diagram & Model
-
-Dokumentasi lengkap tersedia di folder `/docs`, termasuk:
-- Use Case Diagram
-- Sequence Diagram
-- Class Diagram
-- Class Completeness Table
-
-## 👨‍💻 Kontributor
-
-- **Daffa Aprilian Herdikaputra** – Pengembangan sistem & dokumentasi
-- **Maulana Andhika** – Pemodelan & implementasi backend
+- **Daffa Aprilian Herdikaputra** – Analisis kebutuhan & pemodelan diagram
+- **Maulana Andhika** – Perancangan skenario & dokumentasi teknis
 
 Dosen Pengampu: **Achmad Arwan, S.Kom., M.Kom.**  
 Mata Kuliah: *Perancangan Perangkat Lunak*  
