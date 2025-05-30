@@ -53,6 +53,3 @@ Dokumen perancangan mencakup:
 Dosen Pengampu: **Achmad Arwan, S.Kom., M.Kom.**  
 Mata Kuliah: *Perancangan Perangkat Lunak*  
 Fakultas Ilmu Komputer, Universitas Brawijaya – 2024
-
-## 📂 Struktur Folder (Opsional)
-
